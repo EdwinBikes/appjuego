@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 List<Map<String, String>> preguntas = [
   {"pregunta": "¿Cuál es el país más grande del mundo?", "respuesta": "Rusia"},
   {"pregunta": "¿Quién escribió la Odisea?", "respuesta": "Homero"},

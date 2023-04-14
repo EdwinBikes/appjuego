@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AdivinanzaScreen extends StatelessWidget {
+  AdivinanzaScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,7 +12,7 @@ class AdivinanzaScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(
+          const Text(
             '¿Cuál es el país más grande del mundo?',
             style: TextStyle(fontSize: 20.0),
           ),
