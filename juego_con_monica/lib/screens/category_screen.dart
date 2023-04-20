@@ -4,9 +4,18 @@ import 'package:juego_con_monica/screens/question_screen.dart';
 
 class CategoryScreen extends StatelessWidget {
   final List<Category> _categories = [
-    Category(name: 'Animales', imagePath: 'assets/images/animals.jpg'),
-    Category(name: 'Comida', imagePath: 'assets/images/food.jpg'),
-    Category(name: 'Lugares', imagePath: 'assets/images/places.jpg'),
+    Category(
+      name: 'Animales',
+      image: AssetImage('assets/images/animals.jpg'),
+    ),
+    Category(
+      name: 'Comida',
+      image: AssetImage('assets/images/food.jpg'),
+    ),
+    Category(
+      name: 'Lugares',
+      image: AssetImage('assets/images/places.jpg'),
+    ),
   ];
 
   @override
